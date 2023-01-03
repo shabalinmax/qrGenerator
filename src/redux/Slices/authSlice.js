@@ -11,7 +11,7 @@ export const authSlice = createSlice({
         initialState,
         reducers: {
             setUser: (state, action) => {
-                state.user = action.payload
+                state.user = action.payload.user
             },
             setErrorVisible: (state, action) => {
                 state.errorIsVisible = action.payload
