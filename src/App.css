@@ -1,7 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Chivo Mono", monospace;
+  color: #fff;
+}
+*:focus {
+  outline: none;
+}
+
+.App {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: #0f2027; /* fallback for old browsers */
+  background: linear-gradient(0deg, #0066FF, #0066FF);
+}
+
+.defaultBtn {
+  padding: 10px;
+  border: 1px solid #fff;
+  color: #fff;
+  background: linear-gradient(0deg, #0066FF, #0066FF);
+  border-radius: 27px;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+.defaultBtn:hover {
+  background: #fff;
+  padding: 20px;
+  color: #0066FF;
+}
+
+.defaultInput {
+  padding: 10px 30px;
+  color: #0066FF;
+  border-radius: 10px;
+}
+
+.arrowBack {
+  font-size: 70px;
+  position: absolute;
+  left: 30px;
+  top: 0;
 }
 
 /*# sourceMappingURL=App.css.map */
