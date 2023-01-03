@@ -1,0 +1,23 @@
+.RegisterOrLoginPageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  flex-direction: column;
+}
+.RegisterOrLoginPageWrapper header {
+  margin-top: 30vh;
+}
+.RegisterOrLoginPageWrapper header h1 {
+  font-size: 24px;
+  color: #dedede;
+  text-align: center;
+}
+.RegisterOrLoginPageWrapper main {
+  margin-top: 5vh;
+}
+.RegisterOrLoginPageWrapper main button {
+  margin: 5px;
+}
+
+/*# sourceMappingURL=RegisterOrLoginPage.css.map */

@@ -1,0 +1,19 @@
+.RegisterPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.RegisterPage .authInputs {
+  margin-top: 5vh;
+}
+.RegisterPage .authInputs input {
+  margin-right: 10px;
+}
+.RegisterPage .authInputs button {
+  display: block;
+  margin: 1.5vh auto;
+}
+
+/*# sourceMappingURL=RegisterPage.css.map */
