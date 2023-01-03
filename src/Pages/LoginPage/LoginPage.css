@@ -1,3 +1,19 @@
-
+.LoginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.LoginPage .loginInputs {
+  margin-top: 5vh;
+}
+.LoginPage .loginInputs input {
+  margin-right: 10px;
+}
+.LoginPage .loginInputs button {
+  display: block;
+  margin: 1.5vh auto;
+}
 
 /*# sourceMappingURL=LoginPage.css.map */
